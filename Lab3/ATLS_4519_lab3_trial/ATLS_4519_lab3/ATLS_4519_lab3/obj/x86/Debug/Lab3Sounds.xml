@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Sections>
+  <WaveBank Name="Wave Bank">Wave Bank
+{
+    Name = Wave Bank;
+    Xbox File = Xbox\Wave Bank.xwb;
+    Windows File = Win\Wave Bank.xwb;
+    Xbox Bank Path Edited = 0;
+    Windows Bank Path Edited = 0;
+    Seek Tables = 1;
+    Compression Preset Name = &lt;none&gt;;
+    Bank Last Revised Low = 4243140161;
+    Bank Last Revised High = 30280006;
+
+    Wave
+    {
+        Name = Explosion;
+        File = Lab3_Sound_Files\Lab3_Sound_Files\Explosion.wav;
+        Build Settings Last Modified Low = 3999765826;
+        Build Settings Last Modified High = 30280006;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 48000;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 1052672;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 4103744768;
+            Last Modified High = 30124717;
+        }
+    }
+}
+
+</WaveBank>
+</Sections>

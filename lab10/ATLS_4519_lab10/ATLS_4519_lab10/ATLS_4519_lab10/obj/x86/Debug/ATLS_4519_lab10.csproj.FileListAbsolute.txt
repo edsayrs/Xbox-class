@@ -1,0 +1,7 @@
+H:\xbox\lab10\ATLS_4519_lab10\ATLS_4519_lab10\ATLS_4519_lab10\bin\x86\Debug\Content\effects.xnb
+H:\xbox\lab10\ATLS_4519_lab10\ATLS_4519_lab10\ATLS_4519_lab10\bin\x86\Debug\ATLS_4519_lab10.exe
+H:\xbox\lab10\ATLS_4519_lab10\ATLS_4519_lab10\ATLS_4519_lab10\bin\x86\Debug\ATLS_4519_lab10.pdb
+H:\xbox\lab10\ATLS_4519_lab10\ATLS_4519_lab10\ATLS_4519_lab10\obj\x86\Debug\ResolveAssemblyReference.cache
+H:\xbox\lab10\ATLS_4519_lab10\ATLS_4519_lab10\ATLS_4519_lab10\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+H:\xbox\lab10\ATLS_4519_lab10\ATLS_4519_lab10\ATLS_4519_lab10\obj\x86\Debug\ATLS_4519_lab10.exe
+H:\xbox\lab10\ATLS_4519_lab10\ATLS_4519_lab10\ATLS_4519_lab10\obj\x86\Debug\ATLS_4519_lab10.pdb

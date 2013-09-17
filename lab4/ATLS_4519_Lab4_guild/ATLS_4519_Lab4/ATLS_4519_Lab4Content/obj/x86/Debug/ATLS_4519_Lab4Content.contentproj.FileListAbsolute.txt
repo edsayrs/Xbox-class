@@ -1,0 +1,4 @@
+H:\xbox\ATLS_4519_Lab4\ATLS_4519_Lab4\ATLS_4519_Lab4Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\emsa7664\Desktop\ATLS_4519_Lab4\ATLS_4519_Lab4\ATLS_4519_Lab4Content\obj\x86\Debug\ResolveAssemblyReference.cache
+H:\xbox\ATLS_4519_Lab4_guild\ATLS_4519_Lab4\ATLS_4519_Lab4Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\gebu4497\Desktop\ATLS_4519_Lab4_guild\ATLS_4519_Lab4\ATLS_4519_Lab4Content\obj\x86\Debug\ResolveAssemblyReference.cache

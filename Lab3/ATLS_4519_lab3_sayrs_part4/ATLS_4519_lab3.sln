@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010 Express for Windows Phone
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATLS_4519_lab3", "ATLS_4519_lab3\ATLS_4519_lab3\ATLS_4519_lab3.csproj", "{536B9623-84AC-474F-BBA2-2D5BF1A99B82}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "ATLS_4519_lab3Content", "ATLS_4519_lab3\ATLS_4519_lab3Content\ATLS_4519_lab3Content.contentproj", "{15D03972-2615-4F13-AEB1-70C2B8452B0A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{536B9623-84AC-474F-BBA2-2D5BF1A99B82}.Debug|x86.ActiveCfg = Debug|x86
+		{536B9623-84AC-474F-BBA2-2D5BF1A99B82}.Debug|x86.Build.0 = Debug|x86
+		{536B9623-84AC-474F-BBA2-2D5BF1A99B82}.Release|x86.ActiveCfg = Release|x86
+		{536B9623-84AC-474F-BBA2-2D5BF1A99B82}.Release|x86.Build.0 = Release|x86
+		{15D03972-2615-4F13-AEB1-70C2B8452B0A}.Debug|x86.ActiveCfg = Debug|x86
+		{15D03972-2615-4F13-AEB1-70C2B8452B0A}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

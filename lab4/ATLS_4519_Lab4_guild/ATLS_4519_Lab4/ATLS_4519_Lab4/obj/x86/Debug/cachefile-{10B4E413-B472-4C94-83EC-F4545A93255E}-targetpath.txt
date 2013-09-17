@@ -1,0 +1,26 @@
+Content\ballhit.xnb
+Content\killshot.xnb
+Content\miss.xnb
+Content\ball.xnb
+Content\menu.xnb
+Content\p1m.xnb
+Content\p2m.xnb
+Content\left_paddle.xnb
+Content\right_paddle.xnb
+Content\small_ball.xnb
+Content\pleft.xnb
+Content\pright.xnb
+Content\p1.xnb
+Content\p2.xnb
+Content\Courier New.xnb
+Content\bgm.xnb
+Content\bgm.wma
+Content\ballsprite.xnb
+Content\bg-Recovered.xnb
+Content\menu1.xnb
+Content\p1win.xnb
+Content\title.xnb
+Content\1pwin.xnb
+Content\1pwin.wma
+Content\2pwin.xnb
+Content\2pwin.wma

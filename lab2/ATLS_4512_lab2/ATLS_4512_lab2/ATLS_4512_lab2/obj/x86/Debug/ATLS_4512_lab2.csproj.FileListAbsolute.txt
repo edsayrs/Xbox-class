@@ -1,0 +1,6 @@
+H:\xbox\ATLS_4512_lab2\ATLS_4512_lab2\ATLS_4512_lab2\obj\x86\Debug\ResolveAssemblyReference.cache
+H:\xbox\ATLS_4512_lab2\ATLS_4512_lab2\ATLS_4512_lab2\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+H:\xbox\ATLS_4512_lab2\ATLS_4512_lab2\ATLS_4512_lab2\bin\x86\Debug\ATLS_4512_lab2.exe
+H:\xbox\ATLS_4512_lab2\ATLS_4512_lab2\ATLS_4512_lab2\bin\x86\Debug\ATLS_4512_lab2.pdb
+H:\xbox\ATLS_4512_lab2\ATLS_4512_lab2\ATLS_4512_lab2\obj\x86\Debug\ATLS_4512_lab2.exe
+H:\xbox\ATLS_4512_lab2\ATLS_4512_lab2\ATLS_4512_lab2\obj\x86\Debug\ATLS_4512_lab2.pdb

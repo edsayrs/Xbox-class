@@ -1,0 +1,3 @@
+C:\Users\emsa7664\Desktop\sayrs_atlas4519_lab1\sayrs_atlas4519_lab1\sayrs_atlas4519_lab1Content\obj\x86\Debug\ResolveAssemblyReference.cache
+H:\sayrs_atlas4519_lab1\sayrs_atlas4519_lab1\sayrs_atlas4519_lab1Content\obj\x86\Debug\ResolveAssemblyReference.cache
+H:\Emily_Sayrs_Lab1\sayrs_atlas4519_lab1\sayrs_atlas4519_lab1\sayrs_atlas4519_lab1Content\obj\x86\Debug\ResolveAssemblyReference.cache

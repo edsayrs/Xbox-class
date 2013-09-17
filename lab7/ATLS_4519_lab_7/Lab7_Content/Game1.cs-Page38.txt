@@ -1,0 +1,237 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Audio;
+using Microsoft.Xna.Framework.Content;
+using Microsoft.Xna.Framework.GamerServices;
+using Microsoft.Xna.Framework.Graphics;
+using Microsoft.Xna.Framework.Input;
+using Microsoft.Xna.Framework.Media;
+
+namespace ATLS_4519_Lab7
+{
+    public class Game1 : Microsoft.Xna.Framework.Game
+    {
+        GraphicsDeviceManager graphics;
+        SpriteBatch spriteBatch;
+        GraphicsDevice device;
+
+        Effect effect;
+        VertexPositionColor[] vertices;
+        int[] indices;
+        Matrix viewMatrix;
+        Matrix projectionMatrix;
+
+        private int terrainWidth = 4;
+        private int terrainLength = 3;
+        private float[,] heightData;
+
+        Matrix worldMatrix = Matrix.Identity;
+        Matrix worldTranslation = Matrix.Identity;
+        Matrix worldRotation = Matrix.Identity;
+
+        public Game1()
+        {
+            graphics = new GraphicsDeviceManager(this);
+            Content.RootDirectory = "Content";
+        }
+
+        private void SetUpVertices()
+        {
+            float minHeight = float.MaxValue;
+            float maxHeight = float.MinValue;
+            for (int x = 0; x < terrainWidth; x++)
+            {
+                for (int y = 0; y < terrainLength; y++)
+                {
+                    if (heightData[x, y] < minHeight)
+                        minHeight = heightData[x, y];
+                    if (heightData[x, y] > maxHeight)
+                        maxHeight = heightData[x, y];
+                }
+            }
+
+            vertices = new VertexPositionColor[terrainWidth * terrainLength];
+            for (int x = 0; x < terrainWidth; x++)
+            {
+                for (int y = 0; y < terrainLength; y++)
+                {
+                    vertices[x + y * terrainWidth].Position = new Vector3(x, heightData[x, y], -y);
+                    if (heightData[x, y] < minHeight + (maxHeight - minHeight) / 4)
+                        vertices[x + y * terrainWidth].Color = Color.Blue;
+                    else if (heightData[x, y] < minHeight + (maxHeight - minHeight) * 2 / 4)
+                        vertices[x + y * terrainWidth].Color = Color.Green;
+                    else if (heightData[x, y] < minHeight + (maxHeight - minHeight) * 3 / 4)
+                        vertices[x + y * terrainWidth].Color = Color.Brown;
+                    else
+                        vertices[x + y * terrainWidth].Color = Color.White;
+
+                }
+            }
+        }
+
+        private void SetUpIndices()
+        {
+            indices = new int[(terrainWidth - 1) * (terrainLength - 1) * 6];
+            int counter = 0;
+            for (int y = 0; y < terrainLength - 1; y++)
+            {
+                for (int x = 0; x < terrainWidth - 1; x++)
+                {
+                    int lowerLeft = x + y * terrainWidth;
+                    int lowerRight = (x + 1) + y * terrainWidth;
+                    int topLeft = x + (y + 1) * terrainWidth;
+                    int topRight = (x + 1) + (y + 1) * terrainWidth;
+
+                    indices[counter++] = topLeft;
+                    indices[counter++] = lowerRight;
+                    indices[counter++] = lowerLeft;
+
+                    indices[counter++] = topLeft;
+                    indices[counter++] = topRight;
+                    indices[counter++] = lowerRight;
+                }
+            }
+        }
+
+
+        private void SetUpCamera()
+        {
+            viewMatrix = Matrix.CreateLookAt(new Vector3(60, 80, -80), new Vector3(0, 0, 0), new 				Vector3(0, 1, 0));
+            projectionMatrix = Matrix.CreatePerspectiveFieldOfView(MathHelper.PiOver4, 						device.Viewport.AspectRatio, 1.0f, 300.0f);
+        }
+
+        private void LoadHeightData(Texture2D heightMap)
+        {
+            terrainWidth = heightMap.Width;
+            terrainLength = heightMap.Height;
+
+            Color[] heightMapColors = new Color[terrainWidth * terrainLength];
+            heightMap.GetData(heightMapColors);
+
+            heightData = new float[terrainWidth, terrainLength];
+            for (int x = 0; x < terrainWidth; x++)
+                for (int y = 0; y < terrainLength; y++)
+                    heightData[x, y] = heightMapColors[x + y * terrainWidth].R / 5.0f;
+        }
+
+
+        protected override void Initialize()
+        {
+            graphics.PreferredBackBufferWidth = 500;
+            graphics.PreferredBackBufferHeight = 500;
+            graphics.IsFullScreen = false;
+            graphics.ApplyChanges();
+            Window.Title = "ATLS 4519 Lab7  - Terrain Tutorial";
+
+            base.Initialize();
+        }
+
+        protected override void LoadContent()
+        {
+            spriteBatch = new SpriteBatch(GraphicsDevice);
+
+            device = graphics.GraphicsDevice;
+
+            effect = Content.Load<Effect>("effects");
+            Texture2D heightMap = Content.Load<Texture2D>("heightmap"); LoadHeightData(heightMap);
+
+            SetUpCamera();
+
+            SetUpVertices();
+            SetUpIndices();
+
+            worldMatrix *= Matrix.CreateTranslation(-terrainWidth / 2.0f, 0, terrainLength / 2.0f);
+        }
+
+        protected override void UnloadContent()
+        {
+        }
+
+        protected override void Update(GameTime gameTime)
+        {
+            if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
+                this.Exit();
+
+            KeyboardState keyState = Keyboard.GetState();
+
+            //Rotation
+            if (keyState.IsKeyDown(Keys.PageUp))
+            {
+                worldRotation = Matrix.CreateRotationY(0.1f);
+            }
+
+            else if (keyState.IsKeyDown(Keys.PageDown))
+            {
+                worldRotation = Matrix.CreateRotationY(-0.1f);
+            }
+            else
+            {
+                worldRotation = Matrix.CreateRotationY(0);
+            }
+
+            //Translation
+            if (keyState.IsKeyDown(Keys.Left))
+            {
+                worldTranslation = Matrix.CreateTranslation(-.1f, 0, 0);
+            }
+            else if (keyState.IsKeyDown(Keys.Right))
+            {
+                worldTranslation = Matrix.CreateTranslation(.1f, 0, 0);
+            }
+            else if (keyState.IsKeyDown(Keys.Up))
+            {
+                worldTranslation = Matrix.CreateTranslation(0, .1f, 0);
+            }
+            else if (keyState.IsKeyDown(Keys.Down))
+            {
+                worldTranslation = Matrix.CreateTranslation(0, -.1f, 0);
+            }
+            else if (keyState.IsKeyDown(Keys.Q))
+            {
+                worldTranslation = Matrix.CreateTranslation(0, 0, .1f);
+            }
+            else if (keyState.IsKeyDown(Keys.Z))
+            {
+                worldTranslation = Matrix.CreateTranslation(0, 0, -.1f);
+            }
+            else
+            {
+                worldTranslation = Matrix.CreateTranslation(0, 0, 0);
+            }
+
+            worldMatrix *= worldTranslation * worldRotation;
+
+            base.Update(gameTime);
+        }
+
+        protected override void Draw(GameTime gameTime)
+        {
+            device.Clear(ClearOptions.Target | ClearOptions.DepthBuffer, Color.Black, 1.0f, 0);
+
+            // Uncomment the Code below to show triangles facing away from the camera
+            RasterizerState rs = new RasterizerState();
+            rs.CullMode = CullMode.None;
+            //rs.FillMode = FillMode.WireFrame;
+            rs.FillMode = FillMode.Solid;
+            device.RasterizerState = rs;
+
+            effect.CurrentTechnique = effect.Techniques["ColoredNoShading"];
+            effect.Parameters["xView"].SetValue(viewMatrix);
+            effect.Parameters["xProjection"].SetValue(projectionMatrix);
+            effect.Parameters["xWorld"].SetValue(worldMatrix);
+
+            foreach (EffectPass pass in effect.CurrentTechnique.Passes)
+            {
+                pass.Apply();
+
+                device.DrawUserIndexedPrimitives(PrimitiveType.TriangleList,
+                            vertices, 0, vertices.Length, indices, 0, indices.Length / 3, 						VertexPositionColor.VertexDeclaration);
+
+            }
+
+            base.Draw(gameTime);
+        }
+    }
+}

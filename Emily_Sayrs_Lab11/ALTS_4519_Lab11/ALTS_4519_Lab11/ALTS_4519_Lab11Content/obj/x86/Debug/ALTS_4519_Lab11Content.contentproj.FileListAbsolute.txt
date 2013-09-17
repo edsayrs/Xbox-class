@@ -1,0 +1,2 @@
+C:\Users\emsa7664\Desktop\ALTS_4519_Lab11\ALTS_4519_Lab11\ALTS_4519_Lab11Content\obj\x86\Debug\ResolveAssemblyReference.cache
+H:\xbox\Emily_Sayrs_Lab11\ALTS_4519_Lab11\ALTS_4519_Lab11\ALTS_4519_Lab11Content\obj\x86\Debug\ResolveAssemblyReference.cache

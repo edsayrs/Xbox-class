@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline" xmlns:Framework="Microsoft.Xna.Framework" xmlns:Processors="Microsoft.Xna.Framework.Content.Pipeline.Processors">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Effect1.fx</Source>
+      <Name>Effect1</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>H:\xbox\Emily_Sayrs_Lab11\ALTS_4519_Lab11\ALTS_4519_Lab11\ALTS_4519_Lab11\bin\x86\Debug\Content\Effect1.xnb</Output>
+      <Time>2013-05-03T13:38:58-06:00</Time>
+    </Item>
+    <Item>
+      <Source>streettexture.dds</Source>
+      <Name>streettexture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>H:\xbox\Emily_Sayrs_Lab11\ALTS_4519_Lab11\ALTS_4519_Lab11\ALTS_4519_Lab11\bin\x86\Debug\Content\streettexture.xnb</Output>
+      <Time>2013-04-30T09:50:54-06:00</Time>
+    </Item>
+    <Item>
+      <Source>lamppost.x</Source>
+      <Name>lamppost</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>H:\xbox\Emily_Sayrs_Lab11\ALTS_4519_Lab11\ALTS_4519_Lab11\ALTS_4519_Lab11\bin\x86\Debug\Content\lamppost.xnb</Output>
+      <Time>2013-04-30T09:50:54-06:00</Time>
+      <Dependency>
+        <Key>H:\xbox\Emily_Sayrs_Lab11\ALTS_4519_Lab11\ALTS_4519_Lab11\ALTS_4519_Lab11\obj\x86\Debug\lamppost_0.xml</Key>
+        <Value>2013-05-03T12:34:28-06:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>racer.x</Source>
+      <Name>racer</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>H:\xbox\Emily_Sayrs_Lab11\ALTS_4519_Lab11\ALTS_4519_Lab11\ALTS_4519_Lab11\bin\x86\Debug\Content\racer.xnb</Output>
+      <Time>2013-04-30T09:50:54-06:00</Time>
+      <Dependency>
+        <Key>H:\xbox\Emily_Sayrs_Lab11\ALTS_4519_Lab11\ALTS_4519_Lab11\ALTS_4519_Lab11\obj\x86\Debug\racer_0.xml</Key>
+        <Value>2013-05-03T12:34:30-06:00</Value>
+      </Dependency>
+      <Request>H:\xbox\Emily_Sayrs_Lab11\ALTS_4519_Lab11\ALTS_4519_Lab11\ALTS_4519_Lab11\bin\x86\Debug\Content\CHASIS_0.xnb</Request>
+      <Request>H:\xbox\Emily_Sayrs_Lab11\ALTS_4519_Lab11\ALTS_4519_Lab11\ALTS_4519_Lab11\bin\x86\Debug\Content\VENTANAS_0.xnb</Request>
+      <Request>H:\xbox\Emily_Sayrs_Lab11\ALTS_4519_Lab11\ALTS_4519_Lab11\ALTS_4519_Lab11\bin\x86\Debug\Content\CHASIS_A_0.xnb</Request>
+      <Request>H:\xbox\Emily_Sayrs_Lab11\ALTS_4519_Lab11\ALTS_4519_Lab11\ALTS_4519_Lab11\bin\x86\Debug\Content\RUEDAS_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>lamppost.x</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>H:\xbox\Emily_Sayrs_Lab11\ALTS_4519_Lab11\ALTS_4519_Lab11\ALTS_4519_Lab11\obj\x86\Debug\lamppost_0.xml</Output>
+      <Time>2013-04-30T09:50:54-06:00</Time>
+    </Item>
+    <Item>
+      <Source>racer.x</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>H:\xbox\Emily_Sayrs_Lab11\ALTS_4519_Lab11\ALTS_4519_Lab11\ALTS_4519_Lab11\obj\x86\Debug\racer_0.xml</Output>
+      <Time>2013-04-30T09:50:54-06:00</Time>
+    </Item>
+    <Item>
+      <Source>CHASIS.JPG</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>H:\xbox\Emily_Sayrs_Lab11\ALTS_4519_Lab11\ALTS_4519_Lab11\ALTS_4519_Lab11\bin\x86\Debug\Content\CHASIS_0.xnb</Output>
+      <Time>2013-04-30T09:50:54-06:00</Time>
+    </Item>
+    <Item>
+      <Source>VENTANAS.JPG</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>H:\xbox\Emily_Sayrs_Lab11\ALTS_4519_Lab11\ALTS_4519_Lab11\ALTS_4519_Lab11\bin\x86\Debug\Content\VENTANAS_0.xnb</Output>
+      <Time>2013-04-30T09:50:54-06:00</Time>
+    </Item>
+    <Item>
+      <Source>CHASIS_A.JPG</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>H:\xbox\Emily_Sayrs_Lab11\ALTS_4519_Lab11\ALTS_4519_Lab11\ALTS_4519_Lab11\bin\x86\Debug\Content\CHASIS_A_0.xnb</Output>
+      <Time>2013-04-30T09:50:54-06:00</Time>
+    </Item>
+    <Item>
+      <Source>RUEDAS.JPG</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>H:\xbox\Emily_Sayrs_Lab11\ALTS_4519_Lab11\ALTS_4519_Lab11\ALTS_4519_Lab11\bin\x86\Debug\Content\RUEDAS_0.xnb</Output>
+      <Time>2013-04-30T09:50:54-06:00</Time>
+    </Item>
+    <Item>
+      <Source>carlight.jpg</Source>
+      <Name>carlight</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>H:\xbox\Emily_Sayrs_Lab11\ALTS_4519_Lab11\ALTS_4519_Lab11\ALTS_4519_Lab11\bin\x86\Debug\Content\carlight.xnb</Output>
+      <Time>2013-04-30T09:50:54-06:00</Time>
+    </Item>
+    <Item>
+      <Source>chasis.jpg</Source>
+      <Name>chasis</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>H:\xbox\Emily_Sayrs_Lab11\ALTS_4519_Lab11\ALTS_4519_Lab11\ALTS_4519_Lab11\bin\x86\Debug\Content\chasis.xnb</Output>
+      <Time>2013-04-30T09:50:54-06:00</Time>
+    </Item>
+    <Item>
+      <Source>chasis_a.jpg</Source>
+      <Name>chasis_a</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>H:\xbox\Emily_Sayrs_Lab11\ALTS_4519_Lab11\ALTS_4519_Lab11\ALTS_4519_Lab11\bin\x86\Debug\Content\chasis_a.xnb</Output>
+      <Time>2013-04-30T09:50:54-06:00</Time>
+    </Item>
+    <Item>
+      <Source>ruedas.jpg</Source>
+      <Name>ruedas</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>H:\xbox\Emily_Sayrs_Lab11\ALTS_4519_Lab11\ALTS_4519_Lab11\ALTS_4519_Lab11\bin\x86\Debug\Content\ruedas.xnb</Output>
+      <Time>2013-04-30T09:50:54-06:00</Time>
+    </Item>
+    <Item>
+      <Source>streettexture1.jpg</Source>
+      <Name>streettexture1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>H:\xbox\Emily_Sayrs_Lab11\ALTS_4519_Lab11\ALTS_4519_Lab11\ALTS_4519_Lab11\bin\x86\Debug\Content\streettexture1.xnb</Output>
+      <Time>2013-04-30T09:50:54-06:00</Time>
+    </Item>
+    <Item>
+      <Source>streettexture2.png</Source>
+      <Name>streettexture2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>H:\xbox\Emily_Sayrs_Lab11\ALTS_4519_Lab11\ALTS_4519_Lab11\ALTS_4519_Lab11\bin\x86\Debug\Content\streettexture2.xnb</Output>
+      <Time>2013-04-30T09:50:54-06:00</Time>
+    </Item>
+    <Item>
+      <Source>ventanas.jpg</Source>
+      <Name>ventanas</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>H:\xbox\Emily_Sayrs_Lab11\ALTS_4519_Lab11\ALTS_4519_Lab11\ALTS_4519_Lab11\bin\x86\Debug\Content\ventanas.xnb</Output>
+      <Time>2013-04-30T09:50:54-06:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{0A0538AB-9C24-4655-8AF0-35147DA62422}</ContentProjectGUID>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>H:\xbox\Emily_Sayrs_Lab11\ALTS_4519_Lab11\ALTS_4519_Lab11\ALTS_4519_Lab11Content\</RootDirectory>
+      <LoggerRootDirectory>H:\xbox\Emily_Sayrs_Lab11\ALTS_4519_Lab11\ALTS_4519_Lab11\ALTS_4519_Lab11\</LoggerRootDirectory>
+      <IntermediateDirectory>H:\xbox\Emily_Sayrs_Lab11\ALTS_4519_Lab11\ALTS_4519_Lab11\ALTS_4519_Lab11\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>H:\xbox\Emily_Sayrs_Lab11\ALTS_4519_Lab11\ALTS_4519_Lab11\ALTS_4519_Lab11\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2011-09-01T17:22:30-06:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2011-09-01T17:22:30-06:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2011-09-01T17:22:30-06:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2011-09-01T17:22:30-06:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2011-09-01T17:22:30-06:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2011-09-01T17:22:30-06:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2012-12-28T16:37:31.609586-07:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

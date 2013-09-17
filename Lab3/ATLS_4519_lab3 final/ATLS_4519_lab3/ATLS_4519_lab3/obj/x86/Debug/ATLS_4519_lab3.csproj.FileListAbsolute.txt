@@ -1,0 +1,38 @@
+C:\Users\emsa7664\Desktop\ATLS_4519_lab3\ATLS_4519_lab3\ATLS_4519_lab3\bin\x86\Debug\Content\ball.xnb
+C:\Users\emsa7664\Desktop\ATLS_4519_lab3\ATLS_4519_lab3\ATLS_4519_lab3\bin\x86\Debug\ATLS_4519_lab3.exe
+C:\Users\emsa7664\Desktop\ATLS_4519_lab3\ATLS_4519_lab3\ATLS_4519_lab3\bin\x86\Debug\ATLS_4519_lab3.pdb
+C:\Users\emsa7664\Desktop\ATLS_4519_lab3\ATLS_4519_lab3\ATLS_4519_lab3\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\emsa7664\Desktop\ATLS_4519_lab3\ATLS_4519_lab3\ATLS_4519_lab3\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\emsa7664\Desktop\ATLS_4519_lab3\ATLS_4519_lab3\ATLS_4519_lab3\obj\x86\Debug\ATLS_4519_lab3.exe
+C:\Users\emsa7664\Desktop\ATLS_4519_lab3\ATLS_4519_lab3\ATLS_4519_lab3\obj\x86\Debug\ATLS_4519_lab3.pdb
+H:\xbox\ATLS_4519_lab3\ATLS_4519_lab3\ATLS_4519_lab3\bin\x86\Debug\Content\ball.xnb
+H:\xbox\ATLS_4519_lab3\ATLS_4519_lab3\ATLS_4519_lab3\bin\x86\Debug\ATLS_4519_lab3.exe
+H:\xbox\ATLS_4519_lab3\ATLS_4519_lab3\ATLS_4519_lab3\bin\x86\Debug\ATLS_4519_lab3.pdb
+H:\xbox\ATLS_4519_lab3\ATLS_4519_lab3\ATLS_4519_lab3\obj\x86\Debug\ResolveAssemblyReference.cache
+H:\xbox\ATLS_4519_lab3\ATLS_4519_lab3\ATLS_4519_lab3\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+H:\xbox\ATLS_4519_lab3\ATLS_4519_lab3\ATLS_4519_lab3\obj\x86\Debug\ATLS_4519_lab3.exe
+H:\xbox\ATLS_4519_lab3\ATLS_4519_lab3\ATLS_4519_lab3\obj\x86\Debug\ATLS_4519_lab3.pdb
+H:\xbox\ATLS_4519_lab3 _sayrs_part3\ATLS_4519_lab3 - Copy\ATLS_4519_lab3\ATLS_4519_lab3\bin\x86\Debug\Content\ball.xnb
+H:\xbox\ATLS_4519_lab3 _sayrs_part3\ATLS_4519_lab3 - Copy\ATLS_4519_lab3\ATLS_4519_lab3\bin\x86\Debug\ATLS_4519_lab3.exe
+H:\xbox\ATLS_4519_lab3 _sayrs_part3\ATLS_4519_lab3 - Copy\ATLS_4519_lab3\ATLS_4519_lab3\bin\x86\Debug\ATLS_4519_lab3.pdb
+H:\xbox\ATLS_4519_lab3 _sayrs_part3\ATLS_4519_lab3 - Copy\ATLS_4519_lab3\ATLS_4519_lab3\obj\x86\Debug\ResolveAssemblyReference.cache
+H:\xbox\ATLS_4519_lab3 _sayrs_part3\ATLS_4519_lab3 - Copy\ATLS_4519_lab3\ATLS_4519_lab3\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+H:\xbox\ATLS_4519_lab3 _sayrs_part3\ATLS_4519_lab3 - Copy\ATLS_4519_lab3\ATLS_4519_lab3\obj\x86\Debug\ATLS_4519_lab3.exe
+H:\xbox\ATLS_4519_lab3 _sayrs_part3\ATLS_4519_lab3 - Copy\ATLS_4519_lab3\ATLS_4519_lab3\obj\x86\Debug\ATLS_4519_lab3.pdb
+H:\xbox\ATLS_4519_lab3 _sayrs_part3\ATLS_4519_lab3 - Copy\ATLS_4519_lab3\ATLS_4519_lab3\bin\x86\Debug\Content\chord.xnb
+H:\xbox\ATLS_4519_lab3 _sayrs_part3\ATLS_4519_lab3 - Copy\ATLS_4519_lab3\ATLS_4519_lab3\bin\x86\Debug\Content\Lab3Sounds.xgs
+H:\xbox\ATLS_4519_lab3 _sayrs_part3\ATLS_4519_lab3 - Copy\ATLS_4519_lab3\ATLS_4519_lab3\bin\x86\Debug\Content\Wave Bank.xwb
+H:\xbox\ATLS_4519_lab3 _sayrs_part3\ATLS_4519_lab3 - Copy\ATLS_4519_lab3\ATLS_4519_lab3\bin\x86\Debug\Content\Sound Bank.xsb
+H:\xbox\ATLS_4519_lab3 _sayrs_part3\ATLS_4519_lab3 - Copy\ATLS_4519_lab3\ATLS_4519_lab3\bin\x86\Debug\Content\Music.xwb
+H:\xbox\ATLS_4519_lab3 final\ATLS_4519_lab3\ATLS_4519_lab3\bin\x86\Debug\Content\ball.xnb
+H:\xbox\ATLS_4519_lab3 final\ATLS_4519_lab3\ATLS_4519_lab3\bin\x86\Debug\Content\chord.xnb
+H:\xbox\ATLS_4519_lab3 final\ATLS_4519_lab3\ATLS_4519_lab3\bin\x86\Debug\Content\Lab3Sounds.xgs
+H:\xbox\ATLS_4519_lab3 final\ATLS_4519_lab3\ATLS_4519_lab3\bin\x86\Debug\Content\Wave Bank.xwb
+H:\xbox\ATLS_4519_lab3 final\ATLS_4519_lab3\ATLS_4519_lab3\bin\x86\Debug\Content\Music.xwb
+H:\xbox\ATLS_4519_lab3 final\ATLS_4519_lab3\ATLS_4519_lab3\bin\x86\Debug\Content\Sound Bank.xsb
+H:\xbox\ATLS_4519_lab3 final\ATLS_4519_lab3\ATLS_4519_lab3\bin\x86\Debug\ATLS_4519_lab3.exe
+H:\xbox\ATLS_4519_lab3 final\ATLS_4519_lab3\ATLS_4519_lab3\bin\x86\Debug\ATLS_4519_lab3.pdb
+H:\xbox\ATLS_4519_lab3 final\ATLS_4519_lab3\ATLS_4519_lab3\obj\x86\Debug\ResolveAssemblyReference.cache
+H:\xbox\ATLS_4519_lab3 final\ATLS_4519_lab3\ATLS_4519_lab3\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+H:\xbox\ATLS_4519_lab3 final\ATLS_4519_lab3\ATLS_4519_lab3\obj\x86\Debug\ATLS_4519_lab3.exe
+H:\xbox\ATLS_4519_lab3 final\ATLS_4519_lab3\ATLS_4519_lab3\obj\x86\Debug\ATLS_4519_lab3.pdb

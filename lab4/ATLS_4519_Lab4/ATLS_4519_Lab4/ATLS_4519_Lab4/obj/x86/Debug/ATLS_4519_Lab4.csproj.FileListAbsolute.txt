@@ -1,0 +1,26 @@
+H:\xbox\ATLS_4519_Lab4\ATLS_4519_Lab4\ATLS_4519_Lab4\bin\x86\Debug\ATLS_4519_Lab4.exe
+H:\xbox\ATLS_4519_Lab4\ATLS_4519_Lab4\ATLS_4519_Lab4\bin\x86\Debug\ATLS_4519_Lab4.pdb
+H:\xbox\ATLS_4519_Lab4\ATLS_4519_Lab4\ATLS_4519_Lab4\obj\x86\Debug\ResolveAssemblyReference.cache
+H:\xbox\ATLS_4519_Lab4\ATLS_4519_Lab4\ATLS_4519_Lab4\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+H:\xbox\ATLS_4519_Lab4\ATLS_4519_Lab4\ATLS_4519_Lab4\obj\x86\Debug\ATLS_4519_Lab4.exe
+H:\xbox\ATLS_4519_Lab4\ATLS_4519_Lab4\ATLS_4519_Lab4\obj\x86\Debug\ATLS_4519_Lab4.pdb
+H:\xbox\ATLS_4519_Lab4\ATLS_4519_Lab4\ATLS_4519_Lab4\bin\x86\Debug\Content\ballhit.xnb
+H:\xbox\ATLS_4519_Lab4\ATLS_4519_Lab4\ATLS_4519_Lab4\bin\x86\Debug\Content\killshot.xnb
+H:\xbox\ATLS_4519_Lab4\ATLS_4519_Lab4\ATLS_4519_Lab4\bin\x86\Debug\Content\miss.xnb
+H:\xbox\ATLS_4519_Lab4\ATLS_4519_Lab4\ATLS_4519_Lab4\bin\x86\Debug\Content\left_paddle.xnb
+H:\xbox\ATLS_4519_Lab4\ATLS_4519_Lab4\ATLS_4519_Lab4\bin\x86\Debug\Content\right_paddle.xnb
+H:\xbox\ATLS_4519_Lab4\ATLS_4519_Lab4\ATLS_4519_Lab4\bin\x86\Debug\Content\small_ball.xnb
+H:\xbox\ATLS_4519_Lab4\ATLS_4519_Lab4\ATLS_4519_Lab4\bin\x86\Debug\Content\Courier New.xnb
+C:\Users\emsa7664\Desktop\ATLS_4519_Lab4\ATLS_4519_Lab4\ATLS_4519_Lab4\bin\x86\Debug\Content\ballhit.xnb
+C:\Users\emsa7664\Desktop\ATLS_4519_Lab4\ATLS_4519_Lab4\ATLS_4519_Lab4\bin\x86\Debug\Content\killshot.xnb
+C:\Users\emsa7664\Desktop\ATLS_4519_Lab4\ATLS_4519_Lab4\ATLS_4519_Lab4\bin\x86\Debug\Content\miss.xnb
+C:\Users\emsa7664\Desktop\ATLS_4519_Lab4\ATLS_4519_Lab4\ATLS_4519_Lab4\bin\x86\Debug\Content\left_paddle.xnb
+C:\Users\emsa7664\Desktop\ATLS_4519_Lab4\ATLS_4519_Lab4\ATLS_4519_Lab4\bin\x86\Debug\Content\right_paddle.xnb
+C:\Users\emsa7664\Desktop\ATLS_4519_Lab4\ATLS_4519_Lab4\ATLS_4519_Lab4\bin\x86\Debug\Content\small_ball.xnb
+C:\Users\emsa7664\Desktop\ATLS_4519_Lab4\ATLS_4519_Lab4\ATLS_4519_Lab4\bin\x86\Debug\Content\Courier New.xnb
+C:\Users\emsa7664\Desktop\ATLS_4519_Lab4\ATLS_4519_Lab4\ATLS_4519_Lab4\bin\x86\Debug\ATLS_4519_Lab4.exe
+C:\Users\emsa7664\Desktop\ATLS_4519_Lab4\ATLS_4519_Lab4\ATLS_4519_Lab4\bin\x86\Debug\ATLS_4519_Lab4.pdb
+C:\Users\emsa7664\Desktop\ATLS_4519_Lab4\ATLS_4519_Lab4\ATLS_4519_Lab4\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\emsa7664\Desktop\ATLS_4519_Lab4\ATLS_4519_Lab4\ATLS_4519_Lab4\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\emsa7664\Desktop\ATLS_4519_Lab4\ATLS_4519_Lab4\ATLS_4519_Lab4\obj\x86\Debug\ATLS_4519_Lab4.exe
+C:\Users\emsa7664\Desktop\ATLS_4519_Lab4\ATLS_4519_Lab4\ATLS_4519_Lab4\obj\x86\Debug\ATLS_4519_Lab4.pdb

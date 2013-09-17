@@ -1,0 +1,106 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Audio;
+using Microsoft.Xna.Framework.Content;
+using Microsoft.Xna.Framework.GamerServices;
+using Microsoft.Xna.Framework.Graphics;
+using Microsoft.Xna.Framework.Input;
+using Microsoft.Xna.Framework.Media;
+
+namespace ATLS_4519_Lab7
+{
+    public class Game1 : Microsoft.Xna.Framework.Game
+    {
+        GraphicsDeviceManager graphics;
+        SpriteBatch spriteBatch;
+        GraphicsDevice device;
+
+        Effect effect;
+        VertexPositionColor[] vertices;
+        Matrix viewMatrix;
+        Matrix projectionMatrix;
+
+        public Game1()
+        {
+            graphics = new GraphicsDeviceManager(this);
+            Content.RootDirectory = "Content";
+        }
+
+        protected override void Initialize()
+        {
+            graphics.PreferredBackBufferWidth = 500;
+            graphics.PreferredBackBufferHeight = 500;
+            graphics.IsFullScreen = false;
+            graphics.ApplyChanges();
+            Window.Title = "ATLS 4519 Lab 7 - Terrain Tutorial";
+
+            base.Initialize();
+        }
+
+        protected override void LoadContent()
+        {
+            spriteBatch = new SpriteBatch(GraphicsDevice);
+
+            device = graphics.GraphicsDevice;
+
+            effect = Content.Load<Effect>("effects");
+            SetUpCamera();
+
+            SetUpVertices();
+        }
+
+        protected override void UnloadContent()
+        {
+        }
+
+        private void SetUpVertices()
+        {
+            vertices = new VertexPositionColor[3];
+
+            vertices[0].Position = new Vector3(0f, 0f, 0f);
+            vertices[0].Color = Color.Red;
+            vertices[1].Position = new Vector3(10f, 10f, 0f);
+            vertices[1].Color = Color.Yellow;
+            vertices[2].Position = new Vector3(10f, 0f, -5f);
+            vertices[2].Color = Color.Green;
+        }
+
+        private void SetUpCamera()
+        {
+            viewMatrix = Matrix.CreateLookAt(new Vector3(0, 0, 50), new Vector3(0, 0, 0), new 					Vector3(0, 1, 0));
+            projectionMatrix = Matrix.CreatePerspectiveFieldOfView(MathHelper.PiOver4, 						device.Viewport.AspectRatio, 1.0f, 300.0f);
+        }
+
+        protected override void Update(GameTime gameTime)
+        {
+            if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
+                this.Exit();
+
+            base.Update(gameTime);
+        }
+
+        protected override void Draw(GameTime gameTime)
+        {
+            device.Clear(Color.DarkSlateBlue);
+
+            RasterizerState rs = new RasterizerState();
+            rs.CullMode = CullMode.None;
+            device.RasterizerState = rs;
+
+            effect.CurrentTechnique = effect.Techniques["ColoredNoShading"];
+            effect.Parameters["xView"].SetValue(viewMatrix);
+            effect.Parameters["xProjection"].SetValue(projectionMatrix);
+            effect.Parameters["xWorld"].SetValue(Matrix.Identity);
+            foreach (EffectPass pass in effect.CurrentTechnique.Passes)
+            {
+                pass.Apply();
+
+                device.DrawUserPrimitives(PrimitiveType.TriangleList, vertices, 0, 1, 						VertexPositionColor.VertexDeclaration);
+            }
+
+            base.Draw(gameTime);
+        }
+    }
+}

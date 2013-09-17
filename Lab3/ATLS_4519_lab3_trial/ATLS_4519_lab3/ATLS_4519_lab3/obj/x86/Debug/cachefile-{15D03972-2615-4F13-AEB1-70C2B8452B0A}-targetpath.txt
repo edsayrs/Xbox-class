@@ -1,0 +1,5 @@
+Content\ball.xnb
+Content\chord.xnb
+Content\Lab3Sounds.xgs
+Content\Wave Bank.xwb
+Content\Sound Bank.xsb
